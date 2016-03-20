@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../crypto').execute(process.argv.slice(2))

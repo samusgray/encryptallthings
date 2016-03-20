@@ -1,0 +1,35 @@
+{
+  "name": "Encrypt All the Things",
+  "version": "0.0.1",
+  "description": "A workshop for learning about basic cryptography.",
+  "main": "encryptallthings.js",
+  "dependencies": {
+    "workshopper": "^2.7.0",
+    "workshopper-exercise": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronagray/encryptallthings.git"
+  },
+  "keywords": [
+    "encryptallthings",
+    "workshopper",
+    "nodeschool",
+    "cryptography",
+    "encryption"
+  ],
+  "author": "aaron gray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronagray/encryptallthings/issues"
+  },
+  "homepage": "https://github.com/aaronagray/encryptallthings",
+  "bin": {
+    "crypto": "./encryptallthings.js"
+  },
+  "preferGlobal": true
+}
