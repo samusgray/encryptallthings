@@ -1,10 +1,10 @@
 {
-  "name": "Encrypt All the Things",
+  "name": "encryptallthings",
   "version": "0.0.1",
   "description": "A workshop for learning about basic cryptography.",
   "main": "encryptallthings.js",
   "dependencies": {
-    "workshopper": "^2.7.0",
+    "workshopper-adventure": "^4.4.6",
     "workshopper-exercise": "^2.4.0"
   },
   "devDependencies": {},

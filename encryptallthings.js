@@ -1,9 +1,12 @@
-const workshopper = require('workshopper')
-const path = require('path')
-
-workshopper({
-name : 'crypto'
-, title : 'CRYPTO'
-, exerciseDir : path.join(__dirname, 'exercises')
-, appDir : __dirname
+const workshop = require('workshopper-adventure')({
+    appDir      : __dirname
+  , languages   : ['en']
+  , header      : require('workshopper-adventure/default/header')
+  , footer      : require('workshopper-adventure/default/footer')
 })
+
+workshop.addAll([
+  "CYPHERS"
+])
+
+module.exports = workshop
