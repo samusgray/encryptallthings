@@ -16,7 +16,7 @@ $ node program.js
 When you are done, you must run:
 
 ```sh
-$ {appname} verify program.js
+$ crypto verify program.js
 ```
 
 to proceed. Your program will be tested, a report will be generated, and the lesson will be marked 'completed' if you are successful.
