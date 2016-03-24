@@ -1,3 +1,5 @@
+var arg = process.argv[2];
+
 function caesarCypher(text, shift) {
   if (shift < 0)
     return caeserShift(str, shift + 26);
@@ -19,9 +21,8 @@ function caesarCypher(text, shift) {
 
     output += char;
   }
-
   return output;
 }
 
-result = cypher('The quick brown fox.');
+var result = caesarCypher(arg, 4);
 console.log(result);
