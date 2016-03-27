@@ -6,7 +6,7 @@ const workshop = require('workshopper-adventure')({
 })
 
 workshop.addAll([
-  'CAESER_CYPHER'
+  'CAESAR_CIPHER'
 ])
 
 module.exports = workshop
