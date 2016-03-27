@@ -7,6 +7,10 @@ function getRandomIndex(arr) {
   return Math.floor(Math.random() * arr.length)
 }
 
+function getRandomShiftLength() {
+  return Math.floor(Math.random() * (25 - -25 + 1)) + -25
+}
+
 // checks that the submission file actually exists
 exercise = filecheck(exercise)
 
@@ -22,8 +26,8 @@ exercise.addSetup(function(mode, callback){
              "Never eat glue.",
              "Dogs are the best."
             ]
-  var arg = strings[getRandomIndex(strings)]
-  this.submissionArgs = this.solutionArgs = arg
+  var args = [strings[getRandomIndex(strings)], getRandomShiftLength()]
+  this.submissionArgs = this.solutionArgs = args
   process.nextTick(callback)
 })
 
