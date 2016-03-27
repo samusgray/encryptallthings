@@ -1,6 +1,6 @@
 var arg = process.argv[2];
 
-function caesarCypher(text, shift) {
+function caesarCipher(text, shift) {
   if (shift < 0)
     return caeserShift(str, shift + 26);
 
@@ -24,5 +24,5 @@ function caesarCypher(text, shift) {
   return output;
 }
 
-var result = caesarCypher(arg, 4);
+var result = caesarCipher(arg, 4);
 console.log(result);
